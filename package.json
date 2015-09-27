@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "beefy index.js --live",
-    "build": "browserify index.js | uglifyjs > dist/index.js"
+    "build": "browserify index.js | uglifyjs > dist/index.js",
+    "test": "standard index.js"
   },
   "browserify": {
     "transform": [
