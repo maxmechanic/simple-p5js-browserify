@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "beefy index.js --live",
+    "build": "browserify index.js | uglifyjs > dist/index.js"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "p5": "^0.4.13"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "watchify": "^3.4.0",
+    "uglify-js": "^2.4.13"
+  }
+}
