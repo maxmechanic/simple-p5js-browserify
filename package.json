@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "beefy index.js --live",
+    "start": "budo index.js --live",
     "build": "browserify index.js | uglifyjs > dist/index.js",
     "test": "standard index.js"
   },
@@ -16,8 +16,7 @@
     "p5": "^0.4.13"
   },
   "devDependencies": {
-    "beefy": "^2.1.5",
-    "watchify": "^3.4.0",
+    "budo": "^6.1.0",
     "uglify-js": "^2.4.13"
   }
 }
