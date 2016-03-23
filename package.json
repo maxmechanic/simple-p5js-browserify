@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "budo index.js --live",
+    "start": "budo index.js --live --css main.css",
     "build": "browserify index.js | uglifyjs > dist/index.js",
     "test": "standard index.js"
   },
